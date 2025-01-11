@@ -29,7 +29,7 @@ Follow these steps to set up and run the project:
 
 ### Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/Amanmalik5211/crypto-dashboard.git
 cd crypto-dashboard
 
 Install dependencies:
@@ -38,18 +38,3 @@ npm install
 Start the development server:
 npm run dev
 
-API Details
-
-Bitcoin Price Data
-
-Endpoint: /simple/price
-
-Parameters:
-
-ids=bitcoin
-
-vs_currencies=inr,usd
-
-include_24hr_change=true
-
-Description: Fetches the current price of Bitcoin in INR and USD along with the 24-hour percentage price change for each currency.

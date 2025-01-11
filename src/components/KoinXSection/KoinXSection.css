@@ -1,0 +1,84 @@
+.section-container {
+  position: absolute;
+  top: 144px;
+  right: 80px;
+  width: 350px;
+  font-family: Arial, sans-serif;
+}
+.koinx-card {
+  background-color: #007bff;
+  color: white;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+}
+.koinx-image {
+  width: 100px;
+  margin-bottom: 15px;
+}
+.koinx-card h1 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+.koinx-card p {
+  font-size: 12px;
+  margin-bottom: 20px;
+  color: #ebf9f4;
+}
+.cta-button {
+  padding: 10px 20px;
+  background-color: white;
+  color: #000000;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-left: 10px;
+}
+.trending-coins {
+  margin-top: 20px;
+  padding: 15px;
+  background: #ffffff;
+  box-shadow: 9px 10px 22px 12px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+}
+.coin {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0;
+}
+.positive {
+  color: green;
+  background: #ebf9f4;
+  height: 30px;
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.negative {
+  color: red;
+}
+
+.koinx-image {
+  width: 170px;
+  height: 170px;
+  margin-left: 21px;
+}
+
+.image {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin-top: 6px;
+}
+
+.name2 {
+  margin-left: -78px;
+  text-align: left;
+}
+.name1 {
+  margin-left: -98px;
+  text-align: left;
+  margin-top: 5px;
+}

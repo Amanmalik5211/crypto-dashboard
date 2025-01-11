@@ -1,0 +1,23 @@
+.testimonials-section {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.05);
+  text-align: center;
+}
+
+.testimonial {
+  margin-top: 10px;
+}
+
+.testimonial-text {
+  font-size: 14px;
+  color: #6b7280;
+  margin-bottom: 5px;
+}
+
+.testimonial-author {
+  font-size: 12px;
+  color: #9ca3af;
+}

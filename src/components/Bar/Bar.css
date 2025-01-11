@@ -1,0 +1,81 @@
+.container {
+  width: 921px;
+  height: 48px;
+  display: flex;
+  gap: 65px;
+  border-bottom: 1px solid transparent;
+  border-bottom: 2px solid #d3e0e6;
+  opacity: 1;
+  align-items: center;
+  margin-left: 23px;
+  padding: 0px 1px 0px 19px;
+}
+
+.overview {
+  color: #0141cf;
+  width: 63px;
+  height: 19px;
+  opacity: 1;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.36px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.menu-item {
+  width: 63px;
+  height: 19px;
+  opacity: 1;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.36px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: rgb(0, 0, 0);
+}
+
+.menu-item::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 0%;
+}
+
+.menu-item:hover {
+  color: #0141cf;
+}
+
+.menu-item1 {
+  width: 103px;
+  height: 19px;
+  opacity: 1;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.36px;
+  letter-spacing: -0.01em;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: rgb(0, 0, 0);
+  position: relative;
+  overflow: hidden;
+  transition: color 0.3s ease;
+}
+
+.menu-item1::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 0%;
+}
+
+.menu-item1:hover {
+  color: #0141cf;
+}

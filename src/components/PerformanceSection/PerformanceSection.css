@@ -1,0 +1,158 @@
+.performance-container {
+  font-family: Arial, sans-serif;
+  width: 921px;
+  height: 580px;
+  margin-top: 25px;
+  padding: 28px;
+  gap: 24px;
+  border-radius: 8px 8px 8px 8px;
+  opacity: 1;
+  background: #ffffff;
+  box-shadow: 9px 10px 22px 12px rgba(0, 0, 0, 0.05);
+  margin-left: 25px;
+}
+
+.performance-title {
+
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 20px;
+margin-left: 25px;
+margin-top: -5px;
+}
+
+.performance-chart {
+  margin-bottom: 20px;
+}
+
+.chart-row {
+  margin-left: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+  width: 840px;
+  margin-top: 45px;
+}
+
+.metric-label {
+  font-size: 14px;
+  color: #6b7280;
+}
+
+.chart-line {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  margin: 0 10px;
+  height: 4px;
+  border-radius: 65px;
+  background: linear-gradient(to right, red, orange, green);
+}
+
+.low-side{
+  color:#44475B;
+  
+}
+
+.high-side{
+  color:#44475B;
+  position: relative;
+  left:101%
+}
+.high-side1{
+  color:#44475B;
+  position: relative;
+  
+}
+
+
+.mid-marker {
+  position: absolute;
+  font-size: 15px;
+  color: #000;
+  top: -20px;
+}
+
+.low-marker {
+  left: 0;
+}
+
+.mid-marker {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.high-marker {
+  right: 0;
+}
+
+.fundamentals-section {
+  margin-top: 20px;
+  padding-left: 29px;
+  padding-top: 4px;
+}
+
+.fundamentals-title {
+  font-size: 19px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  
+}
+
+.fundamentals-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.fundamental-item {
+  margin-top: 22px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 5px; 
+  border-bottom: 1px solid #44475B; 
+}
+
+.grid1{
+width: 420px;
+gap: 20px;
+}
+.grid2{
+  width: 420px;
+  margin-left: 6px;
+  }
+.fundamental-label {
+  font-size: 14px;
+  color: #6b7280;
+  margin-bottom: 5px;
+}
+
+.fundamental-value {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.fundamental-valuehigh{
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 185px;
+}
+
+.fundamental-valuelow{
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 165px;
+}
+
+.positive {
+  color: #10b981;
+}
+
+.negative {
+  color: #ef4444;
+}

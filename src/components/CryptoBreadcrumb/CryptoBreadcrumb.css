@@ -1,0 +1,19 @@
+.crypto-breadcrumb {
+  font-family: Arial, sans-serif;
+  width: auto;
+  height: 17px;
+  margin: 17.19px 0 0 55.97px;
+  font-size: 14px;
+  line-height: 17px;
+  color: #1a202c;
+  opacity: 1;
+  display: flex;
+  align-items: center;
+  gap: 0px;
+}
+
+.highlight {
+  color: #000000;
+  font-weight: bold;
+  margin-left: 5px;
+}
