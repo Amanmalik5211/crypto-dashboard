@@ -5,7 +5,7 @@ import SentimentSection from "./components/SentimentSection/SentimentSection";
 import AboutSection from "./components/AboutSection/AboutSection";
 import YouMayAlsoLike from "./components/YouMayAlsoLike/YouMayAlsoLike";
 import CryptoBreadcrumb from "./components/CryptoBreadcrumb/CryptoBreadcrumb";
-import Bar from "./components/Bar/bar";
+import Bar from "./components/Bar/Bar";
 import Tokenomics from "./components/Tokenomics/Tokenomics";
 import TeamSection from "./components/TeamSection/TeamSection";
 import KoinXSection from "./components/KoinXSection/KoinXSection";
